@@ -29,7 +29,7 @@ import { Component } from '@angular/core';
 
   <div [hidden]="hiddenStatus">
     <!-- LEARNING PROPERTY BINDING -->
-    <img src="{{ angularLogo}}"> <!-- this must be string -->
+    <img src="{{angularLogo}}"> <!-- this must be string, if not.. use method 2 below -->
     <img [src]="angularLogo">
     <img bind-src="angularLogo">
   </div>
